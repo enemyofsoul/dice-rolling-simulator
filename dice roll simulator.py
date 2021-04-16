@@ -6,10 +6,11 @@ print(n)
 a = 0
 while(a==0):
     b = input("do you want to get a dice roll again")
-    if(b=="yes" or b =="YES" or b =="Yes"):
+    if(b=="yes" or b =="YES" or b =="Yes" or b ==""):
         n = random.choice(l)
         print(n)
         if(n==6):
+            print("you are lucky getting one more number for you")
             n = random.choice(h)
             print(n)
             
