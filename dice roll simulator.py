@@ -10,7 +10,6 @@ while(a==0):
         n = random.choice(l)
         print(n)
         if(n==6):
-            print("you are lucky getting one more number for you")
             n = random.choice(h)
             print(n)
             
